@@ -1,0 +1,200 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "@dineug/erd-editor/builtin-generator-code",
+    "language": 32,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "SCVZ68rQ3KpLvLWrFUD2e"
+    ],
+    "relationshipIds": [],
+    "indexIds": [
+      "iNDiLoeZWMANJoXFXKr4Q"
+    ],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "SCVZ68rQ3KpLvLWrFUD2e": {
+        "id": "SCVZ68rQ3KpLvLWrFUD2e",
+        "name": "Users",
+        "comment": "유저테이블",
+        "columnIds": [
+          "nIxVjf6ZqYufDvHIG63lT",
+          "IEzy2LHqGWPfs90p4mtDv",
+          "PWvPu1ff77Wz0JABu8-AM"
+        ],
+        "seqColumnIds": [
+          "nIxVjf6ZqYufDvHIG63lT",
+          "IEzy2LHqGWPfs90p4mtDv",
+          "PWvPu1ff77Wz0JABu8-AM"
+        ],
+        "ui": {
+          "x": 201,
+          "y": 98,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1730812819363,
+          "createAt": 1730812729626
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "nIxVjf6ZqYufDvHIG63lT": {
+        "id": "nIxVjf6ZqYufDvHIG63lT",
+        "tableId": "SCVZ68rQ3KpLvLWrFUD2e",
+        "name": "idx",
+        "comment": "",
+        "dataType": "INT",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1730812977606,
+          "createAt": 1730812774669
+        }
+      },
+      "IEzy2LHqGWPfs90p4mtDv": {
+        "id": "IEzy2LHqGWPfs90p4mtDv",
+        "tableId": "SCVZ68rQ3KpLvLWrFUD2e",
+        "name": "name",
+        "comment": "이름",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 83,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1730812819120,
+          "createAt": 1730812797342
+        }
+      },
+      "PWvPu1ff77Wz0JABu8-AM": {
+        "id": "PWvPu1ff77Wz0JABu8-AM",
+        "tableId": "SCVZ68rQ3KpLvLWrFUD2e",
+        "name": "age",
+        "comment": "나이",
+        "dataType": "INT",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1730812844188,
+          "createAt": 1730812819363
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {
+      "iNDiLoeZWMANJoXFXKr4Q": {
+        "id": "iNDiLoeZWMANJoXFXKr4Q",
+        "name": "",
+        "tableId": "SCVZ68rQ3KpLvLWrFUD2e",
+        "indexColumnIds": [],
+        "seqIndexColumnIds": [],
+        "unique": false,
+        "meta": {
+          "updateAt": 1730812991337,
+          "createAt": 1730812991337
+        }
+      }
+    },
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "SCVZ68rQ3KpLvLWrFUD2e": [
+      "tableEntities",
+      1730812729623,
+      -1,
+      {
+        "name": 1730812746796,
+        "comment": 1730812772213
+      }
+    ],
+    "nIxVjf6ZqYufDvHIG63lT": [
+      "tableColumnEntities",
+      1730812774667,
+      -1,
+      {
+        "name": 1730812796393,
+        "dataType": 1730812787578,
+        "options(notNull)": 1730812788695,
+        "options(primaryKey)": 1730812977605
+      }
+    ],
+    "IEzy2LHqGWPfs90p4mtDv": [
+      "tableColumnEntities",
+      1730812797341,
+      -1,
+      {
+        "name": 1730812798963,
+        "dataType": 1730812814682,
+        "comment": 1730812819120
+      }
+    ],
+    "PWvPu1ff77Wz0JABu8-AM": [
+      "tableColumnEntities",
+      1730812819363,
+      -1,
+      {
+        "name": 1730812829194,
+        "dataType": 1730812839251,
+        "comment": 1730812844188
+      }
+    ],
+    "iNDiLoeZWMANJoXFXKr4Q": [
+      "indexEntities",
+      1730812991335,
+      -1,
+      {}
+    ]
+  }
+}
