@@ -11,3 +11,4 @@
 ## 플러그인
 - erd Editor (erd 관리)
 - mermaid ()
+- exitdraw
