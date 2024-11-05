@@ -7,3 +7,7 @@
 - java 17
 - spring 3.2.1
 - mysql
+
+## 플러그인
+- erd Editor (erd 관리)
+- mermaid ()
