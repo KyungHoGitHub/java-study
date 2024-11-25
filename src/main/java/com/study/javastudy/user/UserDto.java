@@ -19,7 +19,6 @@ public class UserDto {
     String name;
 
     @NotNull(message="age is not null")
-    @NotEmpty(message="age is not null")
-    @NotBlank(message="age is not null")
+
     int age;
 }

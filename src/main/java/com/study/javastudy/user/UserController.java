@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("/user")
 public class UserController {
 
     private final UserService userService;
@@ -18,8 +19,8 @@ public class UserController {
         return userService.getUser();
     }
 
-    @CrossOrigin(origins = "http://localhost:5173")
-    @PostMapping("/users")
+
+    @PostMapping("/signup")
     public ResponseEntity<Users> createUser(@Valid @RequestBody UserDto userDto) {
 
         return ResponseEntity.ok().body(userService.createUser(userDto));

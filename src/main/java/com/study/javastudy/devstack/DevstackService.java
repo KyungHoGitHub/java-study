@@ -1,5 +1,10 @@
 package com.study.javastudy.devstack;
 
+import java.util.List;
+
 public interface DevstackService {
-    public String save();
+
+    List<Devstack> getList();
+
+     String save();
 }

@@ -17,7 +17,10 @@ public class UserService {
     }
 
     public Users createUser(UserDto userDto) {
-        Users users = new Users(null,userDto.getName(),userDto.getAge());
+        Users users = Users.builder().
+                name(userDto.getName()).
+                age(userDto.getAge()).
+                build();
 
         return userRepository.save(users);
     }

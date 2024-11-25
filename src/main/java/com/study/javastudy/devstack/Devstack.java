@@ -2,10 +2,13 @@ package com.study.javastudy.devstack;
 
 import com.study.javastudy.user.Users;
 import jakarta.persistence.*;
+import lombok.Getter;
 
 import java.time.LocalTime;
 
 @Entity
+@Table(name = "dev_stack")
+@Getter
 public class Devstack {
     // 인덱스
     @Id

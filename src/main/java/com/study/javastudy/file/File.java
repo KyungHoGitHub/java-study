@@ -1,10 +1,17 @@
 package com.study.javastudy.file;
 
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.time.LocalTime;
 
+@Builder
+@Getter
+@Setter
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name="files")
 public class File {
     // 인덱스
     @Id
